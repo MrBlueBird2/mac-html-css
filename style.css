@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: 'Pacifico';
+    background: linear-gradient(to bottom right, #a007, #190077);
+}
+
+.macpc {
+    width: 300px;
+    position: relative;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
+
+.display {
+    height: 200px;
+    background: #000;
+    border-radius: 0px 0px 0 0;
+    background: white;
+}
+
+.logo {
+    height: 20px;
+    background: #fff;
+    border-radius: 0 0 8px 8px;
+    background: radial-gradient(#fff, #a4a4a4);
+}
+
+.logo>img {
+    height: 10px;
+    width: 10px;
+    position: relative;
+    left: 50%;
+    top: -7px;
+    transform: translate(-50%);
+}
+
+.display:before {
+    content: "hello";
+    position: absolute;
+    left: 15px;
+    top: 25px;
+    width: 270px;
+    height: 170px;
+    background: #fff;
+    border-radius: 3px;
+    font-size: 80px;
+    text-align: center;
+    background: linear-gradient(93.05deg, blue 1%, #d409ca, red, orange, yellow, lightgreen);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.stand {
+    border: 1px solid #fff;
+    border-width: 0 40px 40px 40px;
+    border-color: transparent transparent #e4e4e4;
+    width: 40px;
+    margin: 0 auto;
+    /* background: #e4e4e4; */
+    border-radius: 50px;
+}
